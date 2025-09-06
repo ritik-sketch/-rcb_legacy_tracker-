@@ -10,6 +10,11 @@
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-ritik--sketch-blue?logo=github)](https://github.com/ritik-sketch) 
 
+##  Live Project
+
+View the live dashboard here:  
+👉 [RCB Legacy Tracker GitHub Pages](https://ritik-sketch.github.io/-rcb_legacy_tracker-/)
+
 
 📧 Contact: ritikchaturvedi.knp@gmail.com
 ##  Objective
