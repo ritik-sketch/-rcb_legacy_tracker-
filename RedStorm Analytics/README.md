@@ -4,7 +4,14 @@
 
 **Author:** [ritik-sketch](https://github.com/ritik-sketch)  
 **GitHub Profile:** https://github.com/ritik-sketch
+---
 
+📌 Created by [ritik-sketch](https://github.com/ritik-sketch) 
+
+[![GitHub Profile](https://img.shields.io/badge/GitHub-ritik--sketch-blue?logo=github)](https://github.com/ritik-sketch) 
+
+
+📧 Contact: your.email@example.com
 ##  Objective
 To analyze Virat Kohli’s IPL journey with RCB and expand into team-level and league-wide cricket insights using Python and MySQL.
 
