@@ -13,7 +13,7 @@
 ##  Live Project
 
 View the live dashboard here:  
-👉 [RCB Legacy Tracker GitHub Pages](https://ritik-sketch.github.io/-rcb_legacy_tracker-/)
+ [RCB Legacy Tracker GitHub Pages](https://ritik-sketch.github.io/-rcb_legacy_tracker-/)
 
 
 📧 Contact: ritikchaturvedi.knp@gmail.com
