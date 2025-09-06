@@ -1,82 +1,81 @@
-**RCB Legacy Tracer & Redstrom Analysis — Cricket Analytics Portfolio**
+##RCB Legacy Tracker & RedStorm Analysis — Cricket Analytics Portfolio
 
-This project began as a deep dive into Virat Kohli’s IPL journey with Royal Challengers Bangalore, and gradually expanded into a broader cricket analytics dashboard. It now includes player-level, team-level, and league-wide comparisons — covering centuries, match impact, and career trajectories of top IPL performers.
+#  RCB Legacy Tracker
 
-I built this project to sharpen my Python skills, improve my portfolio presentation, and tell compelling stories through cricket data.
+**Author:** [ritik-sketch](https://github.com/ritik-sketch)  
+**GitHub Profile:** https://github.com/ritik-sketch
 
----
+##  Objective
+To analyze Virat Kohli’s IPL journey with RCB and expand into team-level and league-wide cricket insights using Python and MySQL.
 
-##  Folder Structure
-rcb_legacy_tracer/ ├── data/                  # Raw and cleaned CSVs ├── visuals/               # All saved .png graphs ├── utils/                 # Custom plotting functions ├── notebooks/             # Jupyter notebooks (e.g. cricket.ipynb) └── README.md              # Project summary
-redstrom_analysis/ ├── data/                  # Extended player/team stats ├── visuals/               # Global or cross-team comparisons ├── notebooks/             # Advanced comparisons (e.g. Kohli vs Rohit)
+##  Dataset
+- `cricket_IPL.csv`: Player-level IPL stats
+- `player_team_mapping.csv`: Team associations
+- Kohli’s year-wise performance (2008–2024)
 
----
+##  Key Analysis
+- Kohli’s peak years and consistency
+- Kohli vs Rohit century comparison
+- RCB’s top century scorers
+- IPL team-wise century leaderboard
 
-##  Key Features
+##  Visualizations
+- `kohli_performance.png`: Line chart of runs, average, strike rate
+- `rcb_century_leaders.png`: Bar chart of top RCB scorers
+- `ipl_trophy_count.png`: Team-wise trophy comparison
+- All visuals saved in `visuals/` folder
 
-###  Kohli Year-wise Performance
-- Aggregated runs, average, and strike rate from 2008–2024
-- Modular plotting function with clean visuals
+##  Tools Used
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook
+- Modular `.py` plotting scripts
+- MySQL backend (via SQLAlchemy)
 
-###  Kohli vs Rohit Century Comparison
-- Bar chart showing IPL century dominance
-
-###  Team-Level Century Analysis
-- Top 10 IPL teams ranked by total centuries
-- Highlights batting-heavy franchises
-
-###  Kohli vs All-Time IPL Century Leaders
-- Comparison with Buttler, Gayle, KL Rahul, etc.
-
-###  Modular Codebase
-- Plotting functions stored in `kohli_plot_utils.py` and `team_plot_utils.py`
-- Reusable across players and metrics
-
----
-
-Technologies Used
-
-- **Python** (Pandas, Matplotlib)
-- **Jupyter Notebook** for analysis and storytelling
-- **Modular scripting** with `.py` utility files
-- **Data cleaning** using `pd.to_numeric()` and `pd.to_datetime()`
-- **Visual storytelling** with `.png` exports for GitHub and interviews
-
----
-
-# How to Run This Project
-
-# 1. Clone the Repository
-
+##  How to Run
 ```bash
-git clone https://github.com/your-username/rcb-legacy-tracer.git
-cd rcb_legacy_tracer
-
-Install Dependencies
+git clone https://github.com/ritik-sketch/-rcb_legacy_tracker-.git
+cd RedStorm Analytics
 pip install -r requirements.txt
+jupyter notebook rcb_analysis.ipynb
 
-
-3. Launch Jupyter Notebook
-jupyter notebook notebooks/cricket.ipynb
-
-
-4. Run Cells Step-by-Step
-- Start with Kohli analysis
+Start with Kohli analysis
 - Move to team-level comparisons
 - Explore century leader visuals
 - All graphs will be saved in visuals/ folder
 
 
-Requirements
-pandas
-matplotlib
 
 
-You can install them manually if needed:
-pip install pandas matplotlib
+##Installation
+- Virtual environment setup
+- Dependencies: pandas, matplotlib, sqlalchemy, pymysql
+- MySQL Workbench for backend storage
+Launch Jupyter Notebook
+jupyter notebook notebooks/cricket.ipynb
 
 
- What I Learned
+
+
+## Problems Faced
+- SQLAlchemy connection errors
+- DataFrame length mismatches
+- CRLF vs LF warnings (Windows line endings)
+- Git push blocked due to email privacy (GH007)
+
+
+## Plot Descriptions
+- Kohli graph: Blue = Runs, Orange = Average, Green = Strike Rate
+- Century comparison: Kohli vs Rohit vs Gayle vs Buttler
+- Team-level bar charts: Sorted by total centuries
+
+
+## Future Visuals
+- Kohli vs opposition breakdown
+- RCB win-loss trends
+- Interactive dashboard (Streamlit or Plotly)
+
+
+##What I Learned
 - How to modularize plotting logic for clean reuse
 - How to structure notebooks for recruiter readability
 - How to extract insights from raw cricket data
