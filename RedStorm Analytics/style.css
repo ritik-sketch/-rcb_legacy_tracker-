@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #900C3F;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+header a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.visual {
+  background-color: white;
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 900px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.visual img {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.visual h2 {
+  color: #C70039;
+  margin-bottom: 10px;
+}
+
+.visual p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.kohli-highlight {
+  background: linear-gradient(to right, #ffe6e6, #fff);
+  border-left: 6px solid #C70039;
+}
+
+.kohli-highlight h2 {
+  font-size: 24px;
+  color: #B22222;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.kohli-highlight p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #900C3F;
+  color: white;
+  font-size: 14px;
+}
